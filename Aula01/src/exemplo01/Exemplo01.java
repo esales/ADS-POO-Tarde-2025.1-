@@ -13,5 +13,7 @@ public class Exemplo01 {
 		int numeroRecebido = scanner.nextInt();
 		
 		System.out.println("O número recebido foi " + numeroRecebido);
+		
+		scanner.close();
 	}
 }

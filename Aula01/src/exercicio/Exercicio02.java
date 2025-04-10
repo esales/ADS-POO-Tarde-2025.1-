@@ -18,5 +18,7 @@ public class Exercicio02 {
         double volume = altura * largura * comprimento;
         
         System.out.println("O volume do objeto é: " + volume);
+        
+        scanner.close();
     }
 }

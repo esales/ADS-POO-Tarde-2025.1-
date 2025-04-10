@@ -16,5 +16,7 @@ public class Calculadora {
 		int soma = numeroA + numeroB;
 		
 		System.out.println("Soma: " + soma);
+		
+		scanner.close();
 	}
 }

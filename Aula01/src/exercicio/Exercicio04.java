@@ -13,6 +13,8 @@ public class Exercicio04 {
 //        double area = 3.14 * raio * raio;
         
         System.out.println("A área da circunferência é: " + area);
+        
+        scanner.close();
     }
 }
 
