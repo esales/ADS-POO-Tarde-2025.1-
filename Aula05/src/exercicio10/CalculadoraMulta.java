@@ -1,4 +1,4 @@
-package exemplo10;
+package exercicio10;
 
 public class CalculadoraMulta {
 	

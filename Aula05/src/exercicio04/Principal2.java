@@ -6,10 +6,13 @@ public class Principal2 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		
 		String nome = "";
 		int idade = 0;
 		double salario = 0;
+		
 		Funcionario[] funcionarios = new Funcionario[3];
+		
 		int quantidade = 0;
 		double montante = 0;
 		double media = 0;
@@ -36,7 +39,5 @@ public class Principal2 {
 		
 		System.out.println("Quantidade: "+ quantidade);
 		System.out.println("Média: "+media);
-		
-
 	}
 }

@@ -11,11 +11,16 @@ public class Principal {
 		func03.imprimirInfo();
 		
 		Funcionario[] funcionarios = new Funcionario[5];
+		
 		funcionarios[0] = func01;
 		funcionarios[1] = func02;
 		funcionarios[2] = func03;
 		funcionarios[3] = new Funcionario("Teste 4", 25, 2500);
 		funcionarios[4] = new Funcionario("Teste 5", 35, 3500);
+		
+		funcionarios[0].imprimirInfo();
+		
+		func01.setIdade(99);
 		
 		funcionarios[0].imprimirInfo();
 	}

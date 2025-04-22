@@ -15,9 +15,16 @@ public class Funcionario {
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Idade: " + this.idade);
 		System.out.println("Salário: " + this.salario);
+		System.out.println("");
 	}
 
 	public double getSalario() {
 		return salario;
 	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	
+	
 }
